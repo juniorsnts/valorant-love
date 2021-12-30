@@ -247,7 +247,7 @@ const Component4 = ({ mapas }) => {
     <div className={classes.boxRootAgentes}>
       <Typography style={{ fontSize: 36 }}>Mapas</Typography>
       <div className={classes.boxMapa}>
-        {mapas.slice(0, 6).map((mapa) => (
+        {mapas.map((mapa) => (
           <div className={classes.cardMapa}>
             <img style={{ objectFit: 'cover', objectPosition: '50%' }} alt="" width="100%" height="100%" src={mapa.splash} />
           </div>
