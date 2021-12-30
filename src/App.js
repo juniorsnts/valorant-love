@@ -253,7 +253,6 @@ const Component4 = ({ mapas }) => {
           </div>
         ))}
       </div>
-      <Button className={classes.buttonAllAgentes} variant="outlined">VER TODOS OS MAPAS</Button>
     </div>
   );
 }
